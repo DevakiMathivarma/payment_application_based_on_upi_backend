@@ -1,0 +1,9 @@
+[
+  {"model":"api.biller","pk":1,"fields":{"code":"tneb","name":"TNEB","category":"electricity","logo":"","circle":"TN"}},
+  {"model":"api.biller","pk":2,"fields":{"code":"bescom","name":"BESCOM","category":"electricity","logo":"","circle":"KA"}},
+  {"model":"api.biller","pk":3,"fields":{"code":"dmws","name":"Chennai Water Board","category":"water","logo":"","circle":"TN"}},
+  {"model":"api.biller","pk":4,"fields":{"code":"airtelpost","name":"Airtel Postpaid","category":"postpaid","logo":"","circle":""}},
+  {"model":"api.biller","pk":5,"fields":{"code":"tatasky","name":"Tata Sky","category":"dth","logo":""}},
+  {"model":"api.biller","pk":6,"fields":{"code":"bsnlbb","name":"BSNL Broadband","category":"broadband","logo":""}},
+  {"model":"api.biller","pk":7,"fields":{"code":"ioclgas","name":"IOC Gas","category":"gas","logo":""}}
+]

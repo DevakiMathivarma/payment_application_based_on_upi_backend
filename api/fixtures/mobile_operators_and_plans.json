@@ -1,0 +1,182 @@
+[
+  {
+    "model": "api.operator",
+    "pk": 1,
+    "fields": { "code": "airtel", "name": "Airtel", "logo": "" }
+  },
+  {
+    "model": "api.operator",
+    "pk": 2,
+    "fields": { "code": "jio", "name": "Jio", "logo": "" }
+  },
+  {
+    "model": "api.operator",
+    "pk": 3,
+    "fields": { "code": "vi", "name": "Vi", "logo": "" }
+  },
+  {
+    "model": "api.operator",
+    "pk": 4,
+    "fields": { "code": "bsnl", "name": "BSNL", "logo": "" }
+  },
+
+ 
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 1, "category": "data", "amount": 149,
+      "title": "1.5GB/day", "validity": "28 days",
+      "description": "Best for streaming and browsing"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 1, "category": "data", "amount": 98,
+      "title": "1GB/day", "validity": "14 days",
+      "description": "Popular data pack"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 1, "category": "5g", "amount": 249,
+      "title": "5G Booster Pack", "validity": "28 days",
+      "description": "Faster speed for 5G phones"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 1, "category": "topup", "amount": 10,
+      "title": "₹10 Top-up", "validity": "",
+      "description": "Talktime ₹7.47"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 1, "category": "unlimited", "amount": 399,
+      "title": "Unlimited Pack", "validity": "56 days",
+      "description": "Unlimited calls + 1.5GB/day data"
+    }
+  },
+
+
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 2, "category": "data", "amount": 209,
+      "title": "1.5GB/day", "validity": "28 days",
+      "description": "High-speed Jio data pack"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 2, "category": "data", "amount": 349,
+      "title": "2GB/day", "validity": "28 days",
+      "description": "Extra data for power users"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 2, "category": "5g", "amount": 299,
+      "title": "5G Welcome Offer", "validity": "30 days",
+      "description": "Jio True 5G network plan"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 2, "category": "topup", "amount": 20,
+      "title": "₹20 Talktime", "validity": "",
+      "description": "Talktime ₹14.95"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 2, "category": "unlimited", "amount": 666,
+      "title": "Unlimited 2GB/day", "validity": "84 days",
+      "description": "Unlimited calls + 2GB/day data"
+    }
+  },
+
+
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 3, "category": "data", "amount": 129,
+      "title": "1GB/day", "validity": "18 days",
+      "description": "Good for browsing and social media"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 3, "category": "data", "amount": 199,
+      "title": "1.5GB/day", "validity": "28 days",
+      "description": "Popular combo data pack"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 3, "category": "5g", "amount": 299,
+      "title": "5G Boost Plan", "validity": "28 days",
+      "description": "Access Vi 5G network speeds"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 3, "category": "topup", "amount": 50,
+      "title": "₹50 Top-up", "validity": "",
+      "description": "Talktime ₹39.37"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 3, "category": "unlimited", "amount": 479,
+      "title": "Unlimited Pack", "validity": "56 days",
+      "description": "Unlimited calls + 1.5GB/day"
+    }
+  },
+
+
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 4, "category": "data", "amount": 108,
+      "title": "2GB/day", "validity": "28 days",
+      "description": "Affordable BSNL data plan"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 4, "category": "5g", "amount": 299,
+      "title": "5G Plan", "validity": "28 days",
+      "description": "BSNL 5G introductory offer"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 4, "category": "topup", "amount": 100,
+      "title": "₹100 Top-up", "validity": "",
+      "description": "Talktime ₹81.75"
+    }
+  },
+  {
+    "model": "api.plan",
+    "fields": {
+      "operator": 4, "category": "unlimited", "amount": 397,
+      "title": "Unlimited Plan", "validity": "60 days",
+      "description": "Unlimited calls + 2GB/day data"
+    }
+  }
+]
